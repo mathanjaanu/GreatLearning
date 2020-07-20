@@ -1,0 +1,121 @@
+/*Responsive Styles*/
+@media screen and (max-width: 993px) and (min-width:768px){
+	.sep_startegy{
+		width: 70%;
+	}
+	.banner-div{
+		display: block;
+	}
+	.banner-left h1{
+		margin-top: 0px;
+	}
+	.banner-left{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.banner-right{
+		margin: 30px auto;
+	}
+}
+
+@media(max-width: 767px){
+	#sticky{
+		padding: 4px 0;
+	}
+	.banner-div{
+		display: block;
+	}
+	.banner-left h1{
+		margin-top: 0px;
+	}
+	.banner-left{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.logo span{
+		font-size: 18px;
+	}
+	.logo img{
+		width: 150px;
+	}
+	.banner-right {
+		width: 100%;
+		margin-top: 40px;
+	}
+	.banner-div{
+		width: 100%;
+	}
+	.banner-left h1{
+		font-size: 28px;
+	}
+	.banner-left p{
+		font-size: 18px;
+	}
+	.admission {
+		margin-top: 30px;
+	}
+	.banner-left a{
+		font-size: 14px;
+	}
+	.banner-left a b{
+		font-size: 19px;
+	}
+	section {
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.headings h1{
+		font-size: 26px;
+	}
+	.about-us-video{
+		padding: 20px 0;
+	}
+	.about-us-video iframe{
+		width: 100%;
+		height: 200px;
+	}
+	#sticky p{
+		font-size: 14px;
+		margin: 5px;
+	}
+	#sticky a{
+		display: block;
+		width: 130px;
+		margin: 0 auto;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	.sep_startegy{
+		width: 100%;
+	}
+	.startegy{
+		width: 100%;
+	}
+	.all-details  p{
+		font-size: 18px;
+	}
+	.all-details img + p{
+		padding: 10px 0;
+	}
+	.carousel-control img{
+		width: 15px;
+	}
+	#carousel-1 blockquote p{
+		font-size: 13px;
+	}
+	#carousel-1 .carousel-inner .item{
+		padding-bottom: 10px !Important;
+	}
+	blockquote img{
+		width: 15px;
+	}
+	.panel-title > a{
+		font-size: 15px;
+	}
+	#carousel-1 .person,.desc{
+		font-size: 15px;
+	}
+}
+
