@@ -8,33 +8,26 @@ $(window).scroll(function() {
 		$("#sticky").fadeOut("500");
 	}
 });
+
+$(window).on("load",function() {
+	$("#dropdown").trigger("hover");
+});
+
+
+
+
 // Accordion Js
-// $(function () {
-//   $(".panel-heading").on("click", function () {
-//     $("#accordion").find("svg").attr("data-icon", "plus");
-//   });
+$(function () {
+  $(".panel-heading").on("click", function () {
+    $("#accordion").find("svg").attr("data-icon", "plus");
+  });
 
-//   $("#accordion").on("shown.bs.collapse", function () {
-//     $(this)
-//       .find(".in")
-//       .parent()
-//       .find(".panel-heading")
-//       .find("svg")
-//       .attr("data-icon", "minus");
-//   });
-// });
-
-
-$(document).ready(function(){
-	// $(".panel-heading").on("click",function(){
-	// 	console.log("clicked");
-	// 	$("#collapseOne").toggle();
-	// }
-
-	$("#next-btn").on("click",function(){
-		$(".item1.active").removeClass("active");
-		$(".item1.active").next().addClass("active");
-		
-
-	})
-})
+  $("#accordion").on("shown.bs.collapse", function () {
+    $(this)
+      .find(".in")
+      .parent()
+      .find(".panel-heading")
+      .find("svg")
+      .attr("data-icon", "minus");
+  });
+});
